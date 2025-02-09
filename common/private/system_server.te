@@ -30,3 +30,6 @@ add_service(system_server, lmo_freeform_service);
 # Boot animation
 allow system_server bootanim_data_file:dir create_dir_perms;
 allow system_server bootanim_data_file:file create_file_perms;
+
+# Boost framework
+add_service(system_server, boost_framework_service);
