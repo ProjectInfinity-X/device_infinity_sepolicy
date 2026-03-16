@@ -13,3 +13,6 @@ type pif_data_file, file_type, data_file_type, core_data_file_type;
 
 # GameProps
 type gameprops_data_file, file_type, data_file_type, core_data_file_type;
+
+# Custom ROM Hide
+type custom_rom_hide_data_file, file_type, data_file_type, core_data_file_type;

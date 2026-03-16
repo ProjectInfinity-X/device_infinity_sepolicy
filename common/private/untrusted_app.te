@@ -31,3 +31,9 @@ allow untrusted_app_all gameprops_data_file:dir { open read search getattr watch
 allow untrusted_app_all gameprops_data_file:file { open read getattr };
 
 allow isolated_app adb_data_file:dir { search getattr };
+
+# Custom ROM Hide
+allow untrusted_app_all custom_rom_hide_data_file:file { open read getattr };
+allow gmscore_app custom_rom_hide_data_file:file { open read getattr };
+allow priv_app custom_rom_hide_data_file:file { open read getattr };
+allow isolated_app custom_rom_hide_data_file:file { open read getattr };

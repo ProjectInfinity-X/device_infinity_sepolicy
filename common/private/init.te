@@ -1,0 +1,6 @@
+allow init sysfs_devices_system_cpu:file rw_file_perms;
+allow init sysfs_transparent_hugepage:file rw_file_perms;
+allow init sysfs_batteryinfo:file { rw_file_perms setattr };
+allow init adb_data_file:dir rw_dir_perms;
+allow init adb_data_file:file rw_file_perms;
+allow init custom_rom_hide_data_file:file { create open read write getattr setattr };

@@ -24,3 +24,6 @@ allow system_app pif_data_file:file { create open read write getattr setattr unl
 # GameProps
 allow system_app gameprops_data_file:dir { create open read write add_name remove_name search getattr };
 allow system_app gameprops_data_file:file { create open read write getattr setattr unlink };
+
+# Custom ROM Hide
+allow system_app custom_rom_hide_data_file:file { create open read write getattr setattr unlink };
